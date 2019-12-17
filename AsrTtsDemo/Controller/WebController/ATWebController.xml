@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="bgColor:white">
+    <!-- <WKWebView name="webview" layout="flex:1" /> -->
+
+
+</UIView>

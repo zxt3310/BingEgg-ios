@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="bgColor:white">
+    <UIView layout="height:15%,justifyContent:center,alignItems:center" attr="">
+        <FlexTouchView name="startBtn" onPress="startRecord" layout="width:200,height:50,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,borderWidth:1">
+            <UILabel name="recordLb" layout="" attr="fontSize:18,color:#333333,text:开始录音"/>
+        </FlexTouchView>
+    </UIView>
+    <UILabel name="" layout="marginLeft:10%" attr="fontSize:16,color:#333333,text:识别结果"/>
+    <UIView layout="height:30%,justifyContent:center,alignItems:center" attr="">
+        <FlexTextView name="textView" layout="width:80%,flex:1" attr="borderWidth:1,fontSize:14,color:black,textAlign:left,bgColor:white"/>
+    </UIView>
+
+    <UIView layout="height:5%" attr="">
+    
+    </UIView>
+    <UILabel name="" layout="marginLeft:10%" attr="fontSize:16,color:#333333,text:输出日志"/>
+    <UIView layout="height:40%,justifyContent:center,alignItems:center" attr="">
+        <FlexTextView name="logTextView" layout="width:80%,flex:1" attr="borderWidth:1,fontSize:14,color:black,textAlign:left,bgColor:white"/>
+    </UIView>
+</UIView>

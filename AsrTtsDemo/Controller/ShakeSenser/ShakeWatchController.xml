@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="bgColor:white">
+    <UIView layout="height:10%,justifyContent:center,alignItems:center" attr="">
+        <FlexTouchView name="" onPress="startTrack" layout="width:200,height:50,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,borderWidth:1">
+            <UILabel name="trackLb" layout="" attr="fontSize:18,color:#333333,text:开始跟踪"/>
+        </FlexTouchView>
+    </UIView>
+    <UILabel name="" layout="marginLeft:10%" attr="fontSize:16,color:#333333,text:加速度"/>
+    <UIView layout="height:22%,justifyContent:center,alignItems:center" attr="">
+        <FlexTextView name="accTextView" layout="width:80%,flex:1" attr="borderWidth:1,fontSize:14,color:black,textAlign:left,bgColor:white"/>
+    </UIView>
+    <UILabel name="" layout="marginLeft:10%" attr="fontSize:16,color:#333333,text:重力分量"/>
+    <UIView layout="height:22%,justifyContent:center,alignItems:center" attr="">
+        <FlexTextView name="graTextView" layout="width:80%,flex:1" attr="borderWidth:1,fontSize:14,color:black,textAlign:left,bgColor:white"/>
+    </UIView>
+    <UILabel name="" layout="marginLeft:10%" attr="fontSize:16,color:#333333,text:旋转角速度"/>
+    <UIView layout="height:22%,justifyContent:center,alignItems:center" attr="">
+        <FlexTextView name="rotTextView" layout="width:80%,flex:1" attr="borderWidth:1,fontSize:14,color:black,textAlign:left,bgColor:white"/>
+    </UIView>
+</UIView>
